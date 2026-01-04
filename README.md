@@ -50,7 +50,7 @@
 <br/>
 
 ## 📂 Project Structure
-'''bash
+```bash
 OpenGL_CG_Renderer/
 │
 ├── 📂 src/               # 메인 소스 코드 (main.cpp)
@@ -58,13 +58,7 @@ OpenGL_CG_Renderer/
 ├── 📂 assets/            # 3D 모델(j3a) 및 텍스처 이미지
 ├── 📂 images/            # 결과 스크린샷 (README용)
 └── 📂 dependencies/      # 외부 라이브러리 (OpenGL, GLM, etc.)
-'''
-
-<br/>
-
-## 📸 Result Screenshot
-### Final Rendering (Phong Shading + Normal Mapping)
-![Final Result](./images/final_render.png)
+```
 
 <br/>
 
