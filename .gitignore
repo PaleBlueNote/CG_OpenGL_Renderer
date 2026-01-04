@@ -1,0 +1,42 @@
+# ---------------------------------
+# Visual Studio temporary files
+# ---------------------------------
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sdf
+*.opensdf
+*.db
+*.ipch
+
+# ---------------------------------
+# Compiled binary files (Build artifacts)
+# ---------------------------------
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.log
+*.tlog
+*.idb
+
+# ---------------------------------
+# Exception: Allow External Libraries
+# (기본적으로 lib/dll을 무시하지만, dependencies 폴더는 예외로 허용)
+# ---------------------------------
+*.lib
+*.dll
+!dependencies/lib/*.lib
+!*.dll
+
+# ---------------------------------
+# OS Files
+# ---------------------------------
+.DS_Store
+Thumbs.db
